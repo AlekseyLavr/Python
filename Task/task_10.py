@@ -10,7 +10,6 @@
 '''
 from random import randint
 n = int(input('Введите число монеток: '))
-from random import randint
 heads, tails = 0, 0
 for i in range(n):
     send = randint(0, 1)
