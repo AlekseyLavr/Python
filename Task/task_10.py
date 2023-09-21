@@ -8,6 +8,7 @@
 5 -> 1 0 1 1 0
 2
 '''
+from random import randint
 n = int(input('Введите число монеток: '))
 from random import randint
 heads, tails = 0, 0
