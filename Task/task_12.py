@@ -8,10 +8,10 @@
 5 6 -> 2 3
 '''
 
-summa = int(input('Задай сумму двух чисел: '))
+amount = int(input('Задай сумму двух чисел: '))
 multiplication = int(input('Задай произведение чисел: '))
-for x in range(summa):
-    for y in range(summa):
-        if x + y == summa and x * y == multiplication:
+for x in range(amount):
+    for y in range(amount):
+        if x + y == amount and x * y == multiplication:
             print(f'первое число ="{x}", второе число ="{y}"')
 
